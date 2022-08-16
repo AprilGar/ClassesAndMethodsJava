@@ -18,7 +18,7 @@ public class Main {
 
         // This allows you to access private method
         System.out.println(person1.getName());
-        
+
         // This allows you to change a private property
         person1.setName("Richard");
         System.out.println(person1.getName());
