@@ -13,10 +13,10 @@ public class Customer {
         System.out.println(random_int);
     }
 
-    public Customer(String firstName, String lastName, int id, double heldMoney) {
+    public Customer(String firstName, String lastName, int random_int, double heldMoney) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.id = int random_int;
+        this.id = (random_int);
         this.heldMoney = heldMoney;
     }
 }
