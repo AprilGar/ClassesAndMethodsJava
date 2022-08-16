@@ -13,7 +13,7 @@ public class Main {
 
 
         //Customer
-        Customer april = new Customer("April", "Garlington", (random_int), 1000000);
+        Customer april = new Customer("April", "Garlington", random_int, "1000000");
         System.out.println(april);
 
 
