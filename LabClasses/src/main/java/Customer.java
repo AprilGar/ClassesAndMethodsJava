@@ -5,14 +5,13 @@ public class Customer {
     private String lastName;
     private double heldMoney;
 
-    public Customer(String firstName, String lastName, int id, double heldMoney) {}
-
-    // The below generates a random number
-    public static void main(String[] args) {
-        int min = 01;
+    public Customer(String firstName, String lastName, int id, double heldMoney) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this. id = { int min = 01;
         int max = 1000;
-        int random_int = (int) Math.floor(Math.random() * (max - min + 1) + min);
-        System.out.println(random_int);
+        int random_int = (int) Math.floor(Math.random() * (max - min + 1) + min));
+        this.heldMoney = heldMoney;}
     }
 
 
