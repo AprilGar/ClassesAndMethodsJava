@@ -19,5 +19,6 @@ public class Customer {
         this.id = (random_int);
         this.heldMoney = heldMoney;
     }
+
 }
 
